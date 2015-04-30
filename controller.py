@@ -126,11 +126,8 @@ class Scrobbler:
 
 
 	_lastFMServer = "http://ws.audioscrobbler.com/2.0/"
-	_configFilePath = "config.txt"
-	_configFile = open(_configFilePath)
-	_apiKey = _configFile.readline().replace("\r","").replace("\n","")
-	_apiSecret = _configFile.readline().replace("\r","").replace("\n","")
-	_configFile.close()
+	_apiKey = "f0402ff1d4347752f56c003fdcce470a"
+	_apiSecret = "f7d21b44e9b43d81202c365780368339"
 	_headersGet = {"User-Agent" : "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36"}
 	_headersPost = _headersGet.copy()
 	_headersPost.update({"Content-Type" : "application/x-www-form-urlencoded;charset=utf-8"})		
