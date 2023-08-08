@@ -1,7 +1,8 @@
-# DazzleDesktopScrobbler
+# Simple desktop scrobbler for last.fm
 
-<p>Scrobbler for last.fm that allows you to scrobble your listening just setting it's artist, track name and time</p>
-<p>You can also send several listenings at a time in scrobbler <em>from file</em> mode</p>
+<p>Allows you to scrobble your tracks by completing their artist, track name and time fields.</p>
+<p>You can also send several tracks at once with <em>file</em> mode.</p>
+<br/>
 
 <b>File structure (.txt):<b>
 
